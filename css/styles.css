@@ -1,0 +1,309 @@
+
+html, body {
+	font-family: "ff-meta-web-pro", "Trebuchet MS", Arial, Helvetica, sans-serif;	
+	color: #9A9A9A;
+}
+
+.container1200 {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.smallerwidth {
+	width: 400px;
+}
+
+a {
+	text-decoration: none;
+	font-family: "ff-meta-web-pro", "Trebuchet MS", Arial, Helvetica, sans-serif;	
+	font-style: normal;
+	font-weight: 100;
+	color: #9A9A9A;
+	font-size: 11px;
+	line-height: 18px;
+	letter-spacing: 1px;
+
+}
+
+a:hover {
+	color: #EF4036;
+}
+
+h1, h1 a {
+    font-family: "mrs-eaves-xl-serif", Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 65px;
+    line-height: 65px;
+    color: #000;
+    padding: 40px 0px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.currentPage {
+	color: #EF4036;;
+}
+
+.red {
+	color: #EF4036;
+}
+
+.black {
+	color: black;
+}
+
+.meta {
+	font-family: "ff-meta-web-pro", "Trebuchet MS", Arial, Helvetica, sans-serif !important;	
+}
+
+.centerBold {
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.8rem;
+	letter-spacing: .08em;
+	margin: 20px 0 5px 0;
+	color: black;
+}
+
+.centerNormal {
+	text-align: center;
+	font-weight: normal;
+	font-size: 0.7rem;
+	letter-spacing: .08em;
+	margin: 5px 0 5px 0;
+	color: black;
+}
+
+.centerDescription {
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 0.7rem;
+	letter-spacing: .08em;
+	margin: 0px 0 60px 0;
+	color: black;
+}
+
+
+
+
+/********* Slideshow *********/
+
+
+.container {
+      margin: 0 auto
+    }
+
+	#slides,
+    #slides2,
+    #slides3,
+    #slides4,
+    #slides5 {
+      display: none;
+      margin-bottom:50px;
+    }
+
+    .slidesjs-navigation {
+      margin-top:10px;
+    }
+
+    .slidesjs-previous {
+      margin-left: 340px;
+      float: left;
+    }
+
+    .slidesjs-next {
+      margin-right: 340px;
+      float: right;
+    }
+
+    .slidesjs-pagination {
+      /*margin: 6px 0 0;
+      float: right;
+      list-style: none;*/
+      text-align: center;
+      padding-top: 10px;
+    }
+
+    .slidesjs-pagination li {
+   /*   float: left;
+      margin: 0 1px;*/
+      display: inline-block;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+
+
+
+/********* Header *********/
+
+header {
+	text-align: left;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+header img {
+	margin-bottom: 20px;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+/********* Footer *********/
+
+#copyright {
+	font-size: 0.7rem;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/********* Home Page *********/
+/********* Main *********/
+
+section.main {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+/********* About Page *********/
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 0.7rem;
+	letter-spacing: 2px;
+	text-align: left;
+	margin-left: 6%;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+p {
+	
+	line-height: 2;
+	font-size: 0.9rem;
+	text-align: left;
+	margin-top: 20px;
+	
+}
+
+.awards {
+	font-size: 0.8rem;
+	width: 60%;
+}
+
+.seal {
+	display: block;
+	margin-left: 6%;
+
+}
+
+.faqMain {
+	width: 100%;
+}
+
+/********* Contact Page *********/
+
+.contactRed a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+
+/********* Responsive *********/
+@media (max-width: 1600px) {
+
+	.container1200 {
+		width: 80%;
+	}
+
+	.faqMain {
+	width: 70%;
+	}
+
+}
+
+@media (max-width: 1080px) {
+
+	 .slidesjs-navigation {
+      display: none;
+    }
+
+    .nonSlide {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.container {
+		width: auto;
+	}
+
+	header nav ul li {
+	margin-bottom: 15px;
+	text-align: center;
+	margin-right: 20px;
+	}
+
+	.container1200 {
+		width: 80%;
+	}
+
+	h1 {
+		font-size: 45px;
+		line-height: 45px;
+		padding: 20px 0;
+	}
+
+	.smallerwidth {
+		width: 240px;
+	}
+
+
+	.faqMain {
+	width: 90%;
+	}
+
+	.nonSlide {
+		width: 100%;
+	}
+
+	 .slidesjs-navigation {
+      display: none;
+    }
+
+}
+
+
